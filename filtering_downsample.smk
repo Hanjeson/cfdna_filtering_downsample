@@ -35,7 +35,7 @@ rule filtering:
     log:
         "logs/filtering/{sample}.log"
     threads: 4
-    conda: "../envs/downsample.yml"
+    conda: "envs/downsample.yml"
     resources:
         mem_mb = 32000,
         runtime = 480
@@ -73,7 +73,7 @@ rule downsampling:
     log:
         "logs/downsampling/{sample}.{ds_tag}_s{seed}.log"
     threads: config["downsampling"]["threads"]
-    conda: "../envs/downsample.yml"
+    conda: "envs/downsample.yml"
     params:
         # Lookup the read threshold based on the ds_tag wildcard
         n_reads = lambda w: DS_TAGS[w.ds_tag]
