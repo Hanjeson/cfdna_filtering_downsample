@@ -1,7 +1,7 @@
 # Directory paths
-input_dir: "/home/isilon/HumGenAnalysis/M2/01_vali_pipe/01_data/FinaleDB/02_bam"
-filter_dir: "data/intermediate/filtered"
-downsample_dir: "data/results/downsampled"
+input_dir: "/home/isilon/HumGenAnalysis/M2/01_vali_pipe/01_data/FinaleDB/03_bam_temp"
+filter_dir: "/home/isilon/HumGenAnalysis/M2/01_vali_pipe/01_data/FinaleDB/04_filter_bam"
+downsample_dir: "/home/isilon/HumGenAnalysis/M2/01_vali_pipe/01_data/FinaleDB/05_downsample_bam"
 
 # Downsampling settings
 downsampling:
