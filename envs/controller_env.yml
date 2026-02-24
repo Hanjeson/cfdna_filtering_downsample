@@ -1,0 +1,12 @@
+name: snakemake_controller
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.13
+  - snakemake=9.13.4
+  - snakemake-executor-plugin-slurm=1.4.0
+  - snakemake-executor-plugin-slurm-jobstep=0.3.0
+  - pyyaml
+  - pip
