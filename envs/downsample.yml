@@ -1,0 +1,15 @@
+name: downsample_env
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pysam
+  - samtools=1.16
+  - pip  
+  - pip:
+      - pysam==0.22.1
+      - click
