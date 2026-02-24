@@ -1,0 +1,16 @@
+# Directory paths
+input_dir: "/home/isilon/HumGenAnalysis/M2/01_vali_pipe/01_data/FinaleDB/02_bam"
+filter_dir: "data/intermediate/filtered"
+downsample_dir: "data/results/downsampled"
+
+# Downsampling settings
+downsampling:
+  threads: 4
+  mem_mb: 8000
+  # Map your tags to the actual number of reads
+  tags:
+    ds10M: 10000000
+    ds20M: 20000000
+  # List of seeds to use for each sample/tag combination
+  seeds:
+    - 42
