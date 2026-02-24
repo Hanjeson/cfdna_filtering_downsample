@@ -9,7 +9,6 @@ downsampling:
   mem_mb: 8000
   # Map your tags to the actual number of reads
   tags:
-    ds10M: 10000000
     ds20M: 20000000
   # List of seeds to use for each sample/tag combination
   seeds:
